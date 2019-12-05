@@ -39,6 +39,12 @@ namespace WindowsFormsApplication1
            if(this.grdViewAllEmployees.SelectedRows.Count ==1)
            {
                if (MessageBox.Show("Do you want delete this?", "Confirm", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes);
+               {
+                   var employee = (Employee)this.grdViewAllEmployees.SelectedRows[0].DataBoundItem;
+                   this.Business.DeleteEmployee(employee.id);
+                   MessageBox.Show("Delete employee successfully");
+                   this.LoadAllEmployees();
+               }
            }
         }
 

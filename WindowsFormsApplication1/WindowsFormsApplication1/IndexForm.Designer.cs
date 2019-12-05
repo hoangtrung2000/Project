@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IndexForm));
             this.grdViewAllEmployees = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.btnCreate = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,6 +47,7 @@
             this.grdViewAllEmployees.Location = new System.Drawing.Point(0, 24);
             this.grdViewAllEmployees.Name = "grdViewAllEmployees";
             this.grdViewAllEmployees.ReadOnly = true;
+            this.grdViewAllEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grdViewAllEmployees.Size = new System.Drawing.Size(284, 237);
             this.grdViewAllEmployees.TabIndex = 0;
             // 
@@ -86,6 +88,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.grdViewAllEmployees);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "IndexForm";
             this.Text = "IndexForm";

@@ -117,4 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///////////////////////////////////////////Pz8//w8PD/////////////////////////
+        //////////////////////////////r6+v/c3Nz/9fX1/97e3v9ubm7/aWlp/+Dg4P//////////////
+        //////////////////////////////7+/v+hoaH/VVVV/29vb/9lZWX/nJyc/1BQUP9dXV3/4ODg////
+        //////////////////////////////7+/v+ioqL/RERE/2JiYv9CQkL/nZ2d/3Nzc/+UlJT/WFhY/1tb
+        W//f39////////////////////////7+/v+jo6P/QEBA/2lpaf89PT3/srKy/4yMjP+Tk5P/f39//4eH
+        h/9gYGD/WVlZ/97e3v////////////////+mpqb/PT09/29vb/85OTn/tbW1//7+/v/n5+f/k5OT/4aG
+        hv+MjIz/enp6/2tra/+pqan////////////8/Pz/cXFx/3Fxcf82Njb/tra2/////////////v7+/+Hh
+        4f+dnZ3/eXl5/5WVlf9LS0v/5OTk/////////////////7Ozs/80NDT/t7e3////////////////////
+        ////////2tra/5eXl/9nZ2f/a2tr/5ubm//8/Pz//////9jY2P9nZ2f/t7e3/+3t7f/c3Nz/+vr6////
+        /////////v7+/6enp/9qamr/5ubm/+7u7v9aWlr/lJSU//v7+/9iYmL/tbW1/9ra2v9mZmb/YmJi/5WV
+        lf/+/v7//v7+/6Wlpf9paWn/5eXl///////CwsL/XFxc/1lZWf+QkJD/3t7e//////+cnJz/mJiY/+3t
+        7f9cXFz/oKCg/4mJif9ra2v/5eXl///////BwcH/YGBg/7+/v/+kpKT/Q0ND////////////rq6u/4yM
+        jP//////sLCw/4yMjP+jo6P/6enp///////BwcH/X19f/9LS0v/39/f/hYWF/3d3d////////////+Hh
+        4f9hYWH/1NTU///////+/v7/8fHx/9jY2P+lpaX/WVlZ/9PT0//5+fn/iIiI/4KCgv/z8/P/////////
+        ////////u7u7/2RkZP93d3f/cXFx/2lpaf9xcXH/c3Nz/1paWv/Y2Nj/iIiI/4GBgf/19fX/////////
+        ///////////////////q6ur/y8vL/9XV1f/s7Oz/+/v7//////+vr6//XFxc/4mJif/09PT/////////
+        /////////////////////////////////////////////////////////f39/+zs7P/5+fn/////////
+        ////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
 </root>
