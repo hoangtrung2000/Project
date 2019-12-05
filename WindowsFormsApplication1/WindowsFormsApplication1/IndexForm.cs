@@ -31,7 +31,15 @@ namespace WindowsFormsApplication1
 
         void btnSalary_Click(object sender, EventArgs e)
         {
-           
+            var salaryform = new SalaryForm();
+            salaryform.ShowDialog();
+            if (this.grdViewAllEmployees.SelectedRows.Count == 1)
+            {                           
+                var employee = (Employee)this.grdViewAllEmployees.SelectedRows[0].DataBoundItem;
+                this.Business.SalaryEmployee(employee.id);
+                this.LoadAllEmployees();
+            }
+
         }
 
         void btnDelete_Click(object sender, EventArgs e)

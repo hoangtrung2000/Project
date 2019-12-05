@@ -52,6 +52,12 @@ namespace WindowsFormsApplication1
             var db = new MyDatabaseEntities();
             return db.Employees.Find(id);
         }
+        public void SalaryEmployee(int id)
+        {
+            var db = new MyDatabaseEntities();
+            var employee = db.Employees.Find(id);
+            db.SaveChanges();
+        }
 
     }
 }

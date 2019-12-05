@@ -48,7 +48,7 @@
             this.grdViewAllEmployees.Name = "grdViewAllEmployees";
             this.grdViewAllEmployees.ReadOnly = true;
             this.grdViewAllEmployees.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grdViewAllEmployees.Size = new System.Drawing.Size(284, 237);
+            this.grdViewAllEmployees.Size = new System.Drawing.Size(454, 237);
             this.grdViewAllEmployees.TabIndex = 0;
             // 
             // menuStrip1
@@ -59,7 +59,7 @@
             this.btnSalary});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(454, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -85,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(454, 261);
             this.Controls.Add(this.grdViewAllEmployees);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -36,7 +36,6 @@
             this.lblAddress = new System.Windows.Forms.Label();
             this.lblLocation = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
-            this.txtCode = new System.Windows.Forms.TextBox();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.dtp = new System.Windows.Forms.DateTimePicker();
@@ -45,6 +44,7 @@
             this.lblSalary = new System.Windows.Forms.Label();
             this.cmbLocation = new System.Windows.Forms.ComboBox();
             this.txtSalary = new System.Windows.Forms.TextBox();
+            this.txtCode = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblId
@@ -114,13 +114,6 @@
             this.txtId.Size = new System.Drawing.Size(69, 20);
             this.txtId.TabIndex = 6;
             // 
-            // txtCode
-            // 
-            this.txtCode.Location = new System.Drawing.Point(80, 41);
-            this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(100, 20);
-            this.txtCode.TabIndex = 7;
-            // 
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(80, 75);
@@ -172,7 +165,12 @@
             // 
             // cmbLocation
             // 
+            this.cmbLocation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbLocation.FormattingEnabled = true;
+            this.cmbLocation.Items.AddRange(new object[] {
+            "Developer",
+            "IT Manager",
+            "HRM"});
             this.cmbLocation.Location = new System.Drawing.Point(80, 179);
             this.cmbLocation.Name = "cmbLocation";
             this.cmbLocation.Size = new System.Drawing.Size(121, 21);
@@ -185,6 +183,13 @@
             this.txtSalary.Size = new System.Drawing.Size(86, 20);
             this.txtSalary.TabIndex = 16;
             // 
+            // txtCode
+            // 
+            this.txtCode.Location = new System.Drawing.Point(80, 41);
+            this.txtCode.Name = "txtCode";
+            this.txtCode.Size = new System.Drawing.Size(88, 20);
+            this.txtCode.TabIndex = 17;
+            // 
             // CreateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -192,6 +197,7 @@
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.Group_247;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(360, 302);
+            this.Controls.Add(this.txtCode);
             this.Controls.Add(this.txtSalary);
             this.Controls.Add(this.cmbLocation);
             this.Controls.Add(this.lblSalary);
@@ -200,7 +206,6 @@
             this.Controls.Add(this.dtp);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.txtCode);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.lblLocation);
             this.Controls.Add(this.lblAddress);
@@ -226,7 +231,6 @@
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Label lblLocation;
         private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.TextBox txtCode;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.DateTimePicker dtp;
@@ -235,5 +239,6 @@
         private System.Windows.Forms.Label lblSalary;
         private System.Windows.Forms.ComboBox cmbLocation;
         private System.Windows.Forms.TextBox txtSalary;
+        private System.Windows.Forms.TextBox txtCode;
     }
 }
