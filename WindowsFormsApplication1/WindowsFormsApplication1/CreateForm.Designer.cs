@@ -50,6 +50,7 @@
             // lblId
             // 
             this.lblId.AutoSize = true;
+            this.lblId.BackColor = System.Drawing.Color.Transparent;
             this.lblId.Location = new System.Drawing.Point(16, 13);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(18, 13);
@@ -59,6 +60,7 @@
             // lblCode
             // 
             this.lblCode.AutoSize = true;
+            this.lblCode.BackColor = System.Drawing.Color.Transparent;
             this.lblCode.Location = new System.Drawing.Point(16, 44);
             this.lblCode.Name = "lblCode";
             this.lblCode.Size = new System.Drawing.Size(32, 13);
@@ -68,6 +70,7 @@
             // lblName
             // 
             this.lblName.AutoSize = true;
+            this.lblName.BackColor = System.Drawing.Color.Transparent;
             this.lblName.Location = new System.Drawing.Point(16, 78);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(35, 13);
@@ -77,6 +80,7 @@
             // lblBirhday
             // 
             this.lblBirhday.AutoSize = true;
+            this.lblBirhday.BackColor = System.Drawing.Color.Transparent;
             this.lblBirhday.Location = new System.Drawing.Point(16, 108);
             this.lblBirhday.Name = "lblBirhday";
             this.lblBirhday.Size = new System.Drawing.Size(47, 13);
@@ -86,6 +90,7 @@
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
+            this.lblAddress.BackColor = System.Drawing.Color.Transparent;
             this.lblAddress.Location = new System.Drawing.Point(16, 146);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(45, 13);
@@ -95,6 +100,7 @@
             // lblLocation
             // 
             this.lblLocation.AutoSize = true;
+            this.lblLocation.BackColor = System.Drawing.Color.Transparent;
             this.lblLocation.Location = new System.Drawing.Point(16, 182);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(48, 13);
@@ -157,6 +163,7 @@
             // lblSalary
             // 
             this.lblSalary.AutoSize = true;
+            this.lblSalary.BackColor = System.Drawing.Color.Transparent;
             this.lblSalary.Location = new System.Drawing.Point(216, 183);
             this.lblSalary.Name = "lblSalary";
             this.lblSalary.Size = new System.Drawing.Size(36, 13);
@@ -182,6 +189,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.Group_247;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(360, 302);
             this.Controls.Add(this.txtSalary);
             this.Controls.Add(this.cmbLocation);
@@ -199,6 +208,7 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblCode);
             this.Controls.Add(this.lblId);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CreateForm";
             this.Text = "CreateForm";
