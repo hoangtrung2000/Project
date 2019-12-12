@@ -41,7 +41,7 @@ namespace WindowsFormsApplication1
             this.txtName.Text = employee.Name;
             this.txtAddress.Text = employee.Address;
             this.cmbLocation.Text = employee.Location;
-          //  this.txtSalary.Text = employee.Salary;
+            this.txtSalary.Text = employee.Salary.ToString();
             
         }
     }
